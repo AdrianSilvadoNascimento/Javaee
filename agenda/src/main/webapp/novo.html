@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="utf-8">
+<title>Novo Contato</title>
+<link rel="icon" href="imagens/phone.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<h1>Criar novo contato</h1>
+	<form name="frmContato" action="insert">
+		<input class="caixa" type="text" name="nome" placeholder="Nome" />
+		<br/>
+		<input class="caixa" type="text" name="fone" placeholder="Fone" />
+		<br/>
+		<input class="caixa" type="text" name="email" placeholder="Email" />
+	</form>
+	<input type="button" onclick="validar()" value="Cadastrar" class="botao">
+	<script src="scripts/validador.js"></script>
+</body>
+</html>
